@@ -1,0 +1,14 @@
+{
+	"name": "Prowler quickdev",
+	"image": "ghcr.io/devcontainers/templates/python:4.1.0",
+	"features": {},
+	"customizations": {
+		"vscode": {
+			"extensions": ["ms-python.python"],
+			"settings": {
+				"editor.formatOnSave": true
+			}
+		}
+	},
+	"forwardPorts": [80, 8080, 443]
+}
